@@ -8,8 +8,9 @@
 	<meta property="og:image" content="img/hero-image-01.png">
 	<meta property="og:url" content="">
 	<meta name="twitter:card" content="summary_large_image">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/7cfa024f90.js" crossorigin="anonymous"></script>
 	<title>Sedna model 5</title>
 </head>
 <body>
@@ -98,6 +99,12 @@
 							<p class="sub-content">Download and re-use the code for any other project you like.</p>
 						</li>
 					</ul>
+					<div class="all-devices">
+						<i class="fas fa-desktop"></i>
+						<i class="fas fa-tablet-alt"></i>
+						<i class="fas fa-mobile-alt"></i>
+						<p>FULLY RESPONSIVE</p>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -132,13 +139,100 @@
 				</div>
 			</div>
 		</section>
-		<section class="up-arrow">
-			<div class="container clearfix">
-				<a href="#top"><img src="img/up-arrow.png"></a>
+		<section class="gallery">
+			<div class="gallery-container clearfix">
+				<div class="gallery-box">
+					<img src="img/photo1.png">
+					<i class="fas fa-search"></i>
+					<p>PRODUCT</p>
+					<a href="javascript:void(0)">Getting started with Sedna</a>
+					<i class="fas fa-greater-than"></i>
+				</div>
+				<div class="gallery-box">
+					<img src="img/photo2.png">
+					<p>TECHNOLOGY</p>
+					<a href="javascript:void(0)">Why IE8 support is deminishing</a>
+					<i class="fas fa-greater-than"></i>
+				</div>
+				<div class="gallery-box">
+					<img src="img/photo3.png">
+					<p>PRODUCT</p>
+					<a href="javascript:void(0)">Sedna tutorial: How to begin your tutorial</a>
+					<i class="fas fa-greater-than"></i>
+				</div>
+				<div class="gallery-box">
+					<img src="img/photo1.png">
+					<p>PRODUCT</p>
+					<a href="javascript:void(0)">Getting started with Sedna</a>
+					<i class="fas fa-greater-than"></i>
+				</div>
+				<div class="gallery-box">
+					<img src="img/photo2.png">
+					<p>TECHNOLOGY</p>
+					<a href="javascript:void(0)">Why IE8 support is deminishing</a>
+					<i class="fas fa-greater-than"></i>
+				</div>
+				<div class="gallery-box">
+					<img src="img/photo3.png">
+					<p>PRODUCT</p>
+					<a href="javascript:void(0)">Sedna tutorial: How to begin your</a>
+					<i class="fas fa-greater-than"></i>
+				</div>
+			</div>
+			<a href="javascript:void(0)" class="btn" id="toggle" onclick="toggleGallery()">MORE NEWS</a>
+		</section>
+		<section class="slider">
+			<button class="prev" id="prev"><i class="fas fa-less-than"></i></button>
+  			<button class="next" id="next"><i class="fas fa-greater-than"></i></button>
+  			<div class="slider-wrap" id="slider-wrap">
+  				<ul id="carousel-wrapper" class="carousel-wrapper">
+					<li class="slides">
+						<img src="img/profile.png">
+						<p class="quote">“Sedna is crucial to our workflow”</p>
+						<p>1.PETER FINLAN, CEO OF AWESOMESAUCE TECHNOLOGIES</p>
+					</li>
+					<li class="slides">
+						<img src="img/profile.png">
+						<p class="quote">“Sedna is crucial to our workflow”</p>
+						<p>2.PETER FINLAN, CEO OF AWESOMESAUCE TECHNOLOGIES</p>
+					</li>
+					<li class="slides">
+						<img src="img/profile.png">
+						<p class="quote">“Sedna is crucial to our workflow”</p>
+						<p>3.PETER FINLAN, CEO OF AWESOMESAUCE TECHNOLOGIES</p>
+					</li>
+				</ul>
+  			</div>
+  			<div class="slider-dot">
+			  <span class="dot active" id="dot-1"></span>
+			  <span class="dot" id="dot-2"></span>	
+			  <span class="dot" id="dot-3"></span>
+			</div>
+		</section>
+		<section class="signup">
+			<h3>Get started with Sedna, absolutely free</h3>
+			<p>Grab your copy today, exclusively from Codrops</p>
+			<div class="form-input">
+				<input type="email" class="inputText" required>
+				<span class="floating-label">Enter your email</span>
+				<i class="fas fa-envelope"></i>
+			</div>
+			<div class="form-input">
+				<input type="password" class="inputText" required>
+				<span class="floating-label">Enter your password</span>
+				<i class="fas fa-lock"></i>
+			</div>	
+			<div class="form-input">
+				<input type="submit" name="" value="SIGN UP FOR FREE">				
 			</div>
 		</section>
 	</main>
 	<footer class="footer-desktop">
+		<div class="up-arrow">
+			<div class="container clearfix">
+				<a href="#top"><img src="img/up-arrow.png"></a>
+			</div>
+		</div>
 		<div class="container clearfix">
 			<div class="footer-left">
 				<ul class="footer-menu">
